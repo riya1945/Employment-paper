@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model checkpoints and weights
+saved_distilbert/
+distilbert_resume_classifier/
+*.pt
+*.pth
+*.bin
+*.npy
+*.pkl
+*.pickle
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Dataset Files (Users can regenerate via `python prepare_data.py`)
+# Uncomment if hosting solely on HuggingFace:
+# clean_resumes.csv
+# clean_job_descriptions.csv
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
